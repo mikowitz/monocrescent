@@ -1,4 +1,4 @@
-<h1 class="center">Good things are coming! Be the first to know!</h1>
+<h1 class="center">Good things are coming. Be the first to know.</h1>
 
 <%= img_tag(Routes.static_path(@socket, "/images/meghan.jpg")) %>
 
@@ -18,7 +18,7 @@
 <%# <.form let={f} for={@changeset} phx-change="validate" phx-submit="submit-email"> %>
 <%= form_for @changeset, "", [phx_change: "validate", phx_submit: "submit-email"], fn f -> %>
   <%= label f, :email_address %>
-  <%= email_input f, :email_address %>
+  <%= text_input f, :email_address %>
   <%= error_tag f, :email_address %>
 
   <%= label f, :name %>
