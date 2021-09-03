@@ -10,7 +10,7 @@ use Mix.Config
 # which you should run after static files are built and
 # before starting your production server.
 config :monocrescent, MonocrescentWeb.Endpoint,
-  url: [host: "example.com", port: 80],
+  url: [scheme: "https", host: "monocrescent.herokuapp.com", port: 433],
   cache_static_manifest: "priv/static/cache_manifest.json"
 
 # Do not print debug messages in production
