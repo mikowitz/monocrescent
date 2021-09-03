@@ -1,6 +1,57 @@
 /* This file is for your main application css. */
 @import "./phoenix.css";
 
+body {
+  background-color: #fafafa;
+  color: #222;
+}
+
+.center {
+  text-align: center;
+}
+
+hr {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-top: 2px solid #444;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+form {
+  border: 2px solid #555;
+  padding: 20px 30px;
+  margin: 30px 0px;
+  border-radius: 10px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.container {
+  font-family: serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  padding-top: 20px;
+  padding-left: 120px;
+}
+
+.small {
+  margin-top: 5px;
+  font-size: 1rem;
+  line-height: 95%;
+}
+
+
 /* LiveView specific classes for your customizations */
 .phx-no-feedback.invalid-feedback,
 .phx-no-feedback .invalid-feedback {

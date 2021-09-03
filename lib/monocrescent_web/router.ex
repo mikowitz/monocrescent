@@ -17,7 +17,7 @@ defmodule MonocrescentWeb.Router do
   scope "/", MonocrescentWeb do
     pipe_through :browser
 
-    live "/", PageLive, :index
+    live "/", HomeLive, :index
   end
 
   # Other scopes may use custom stacks.
